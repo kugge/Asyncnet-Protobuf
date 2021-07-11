@@ -105,14 +105,6 @@ Convert a <tt class="docutils literal"><span class="pre">JsonNode</span></tt> to
 
   </div>
 </div>
-
-    <div class="row">
-      <div class="twelve-columns footer">
-        <span class="nim-sprite"></span>
-        <br/>
-        <small style="color: var(--hint);">Made with Nim. Generated: 2021-07-11 14:40:19 UTC</small>
-      </div>
-    </div>
   </div>
 </div>
 
