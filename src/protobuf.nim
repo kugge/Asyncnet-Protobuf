@@ -7,6 +7,7 @@
 # Imported is better since we don't need readbyte.
 
 ## This act as an Asyncnet extension for Protocol Buffer (Big Endian)
+import json
 import asyncnet
 import asyncdispatch
 
