@@ -10,7 +10,7 @@
     <span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">Exception</span><span class="Other">,</span> <span class="Identifier">ValueError</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">RootEffect</span><span class="Other">]</span></span><span class="Other">.}</span></span></pre></dt>
 <dd>
 
-Read an int stored in both VarInt and VarLong format using decoding <em>[Google Protocol Buffers](http://code.google.com/apis/protocolbuffers/docs/encoding.html)</em> Args:<ul class="simple"><li><strong>client</strong>: AsyncSocket from asyncnet</li>
+Read an int stored in both VarInt and VarLong format using decoding <em>[Google Protocol Buffers](http://code.google.com/apis/protocolbuffers/docs/encoding.html)</em><br> Args:<ul class="simple"><li><strong>client</strong>: AsyncSocket from asyncnet</li>
 </ul>
 
 
@@ -20,7 +20,7 @@ Read an int stored in both VarInt and VarLong format using decoding <em>[Google 
     <span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">Exception</span><span class="Other">,</span> <span class="Identifier">ValueError</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">RootEffect</span><span class="Other">]</span></span><span class="Other">.}</span></span></pre></dt>
 <dd>
 
-Read a string with its VarInt length Args:<ul class="simple"><li><strong>client</strong>: AsyncSocket from asyncnet</li>
+Read a string with its VarInt length<br> Args:<ul class="simple"><li><strong>client</strong>: AsyncSocket from asyncnet</li>
 </ul>
 
 
@@ -30,7 +30,7 @@ Read a string with its VarInt length Args:<ul class="simple"><li><strong>client<
     <span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">Exception</span><span class="Other">,</span> <span class="Identifier">ValueError</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">RootEffect</span><span class="Other">]</span></span><span class="Other">.}</span></span></pre></dt>
 <dd>
 
-Read an unsigned short Args:<ul class="simple"><li><strong>client</strong>: AsyncSocket from asyncnet</li>
+Read an unsigned short<br> Args:<ul class="simple"><li><strong>client</strong>: AsyncSocket from asyncnet</li>
 </ul>
 
 
@@ -40,7 +40,7 @@ Read an unsigned short Args:<ul class="simple"><li><strong>client</strong>: Asyn
     <span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">Exception</span><span class="Other">,</span> <span class="Identifier">ValueError</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">RootEffect</span><span class="Other">]</span></span><span class="Other">.}</span></span></pre></dt>
 <dd>
 
-Read a Long (int64) Args:<ul class="simple"><li><strong>client</strong>: AsyncSocket from asyncnet</li>
+Read a Long (int64)<br> Args:<ul class="simple"><li><strong>client</strong>: AsyncSocket from asyncnet</li>
 </ul>
 
 
@@ -54,7 +54,7 @@ Read a Long (int64) Args:<ul class="simple"><li><strong>client</strong>: AsyncSo
 <dt><pre><span class="Keyword">func</span> <a href="#writeInt%2Cint"><span class="Identifier">writeInt</span></a><span class="Other">(</span><span class="Identifier">value</span><span class="Other">:</span> <span class="Identifier">int</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">string</span> <span><span class="Other">{</span><span class="Other pragmadots">...</span><span class="Other">}</span></span><span class="pragmawrap"><span class="Other">{.</span><span class="pragma"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span><span class="Other">.}</span></span></pre></dt>
 <dd>
 
-Write an int stored in VarInt/VarLong format using encoding <em>[Google Protocol Buffers](http://code.google.com/apis/protocolbuffers/docs/encoding.html)</em> Args:<ul class="simple"><li><strong>value</strong>: Decoded Number</li>
+Write an int stored in VarInt/VarLong format using encoding <em>[Google Protocol Buffers](http://code.google.com/apis/protocolbuffers/docs/encoding.html)</em><br> Args:<ul class="simple"><li><strong>value</strong>: Decoded Number</li>
 </ul>
 
 
@@ -68,7 +68,7 @@ Write an int stored in VarInt/VarLong format using encoding <em>[Google Protocol
 <dt><pre><span class="Keyword">template</span> <a href="#writeString.t%2Cstring"><span class="Identifier">writeString</span></a><span class="Other">(</span><span class="Identifier">text</span><span class="Other">:</span> <span class="Identifier">string</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">string</span></pre></dt>
 <dd>
 
-Write a string with its VarInt length Args:<ul class="simple"><li><strong>text</strong>: Decoded text</li>
+Write a string with its VarInt length<br> Args:<ul class="simple"><li><strong>text</strong>: Decoded text</li>
 </ul>
 
 
@@ -77,7 +77,7 @@ Write a string with its VarInt length Args:<ul class="simple"><li><strong>text</
 <dt><pre><span class="Keyword">template</span> <a href="#writeUShort.t%2Cint"><span class="Identifier">writeUShort</span></a><span class="Other">(</span><span class="Identifier">short</span><span class="Other">:</span> <span class="Identifier">int</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">string</span></pre></dt>
 <dd>
 
-Convert an unsigned short to bytes Args:<ul class="simple"><li><strong>short</strong>: Decoded Unsigned Short</li>
+Convert an unsigned short to bytes<br> Args:<ul class="simple"><li><strong>short</strong>: Decoded Unsigned Short</li>
 </ul>
 
 
@@ -86,7 +86,7 @@ Convert an unsigned short to bytes Args:<ul class="simple"><li><strong>short</st
 <dt><pre><span class="Keyword">template</span> <a href="#writeLong.t%2Cint"><span class="Identifier">writeLong</span></a><span class="Other">(</span><span class="Identifier">long</span><span class="Other">:</span> <span class="Identifier">int</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">string</span></pre></dt>
 <dd>
 
-Convert a Long to bytes Args:<ul class="simple"><li><strong>long</strong>: Decoded Long</li>
+Convert a Long to bytes<br> Args:<ul class="simple"><li><strong>long</strong>: Decoded Long</li>
 </ul>
 
 
@@ -95,7 +95,7 @@ Convert a Long to bytes Args:<ul class="simple"><li><strong>long</strong>: Decod
 <dt><pre><span class="Keyword">template</span> <a href="#writeJson.t%2CJsonNode"><span class="Identifier">writeJson</span></a><span class="Other">(</span><span class="Identifier">json</span><span class="Other">:</span> <span class="Identifier">JsonNode</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">string</span></pre></dt>
 <dd>
 
-Convert a <tt class="docutils literal"><span class="pre">JsonNode</span></tt> to bytes Args:<ul class="simple"><li><strong>json</strong>: JsonNode object</li>
+Convert a <tt class="docutils literal"><span class="pre">JsonNode</span></tt> to bytes<br> Args:<ul class="simple"><li><strong>json</strong>: JsonNode object</li>
 </ul>
 
 
